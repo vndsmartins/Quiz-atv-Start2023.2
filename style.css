@@ -2,6 +2,7 @@ body {
     background-image: url(https://cinebuzz.uol.com.br/media/uploads/jigsaw_prepara_vinganca_pessoal_no_trailer_de_jogos_mortais_10.jpg);
     align-items: center;
     text-align: center;
+    color: aliceblue;
 }
 
 .question {
@@ -10,11 +11,21 @@ body {
     margin-bottom: 10px;
 }
 
-.result {
+#result {
+    color: aliceblue;
     text-align: center;
     font-size: 24px;
     margin-top: 20px;
 }
+
+.quiz-container {
+    display: block;
+}
+
+.resultado-container {
+    display: none;
+}
+
 p {
     color: rgb(255, 255, 255);
     font-size: 30px;

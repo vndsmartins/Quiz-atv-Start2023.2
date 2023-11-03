@@ -14,9 +14,11 @@ function verificarRespostas(event) {
         }
     }
 
-    resultContainer.textContent = `Você acertou ${pontuacao} de 5 perguntas.`;
+    document.querySelector(".quiz-container").style.display = "none";
+
+    document.querySelector(".resultado-container").style.display = "block";
+    document.getElementById("score").textContent = pontuacao;   
 }
 
-// Adicionar evento de envio do formulário
 const quizForm = document.getElementById("quiz-form");
 quizForm.addEventListener("submit", verificarRespostas);
