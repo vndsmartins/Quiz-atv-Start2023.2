@@ -1,7 +1,7 @@
 function verificarRespostas(event) {
     event.preventDefault();
 
-    const respostasCorretas = ["b", "c", "c", "b", "c"];
+    const respostasCorretas = ["c", "b", "b", "b", "b"];
     const form = document.getElementById("quiz-form");
     const resultContainer = document.getElementById("result");
     const formData = new FormData(form);
