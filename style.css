@@ -1,0 +1,20 @@
+body{
+   background-image: url(https://cinebuzz.uol.com.br/media/uploads/jigsaw_prepara_vinganca_pessoal_no_trailer_de_jogos_mortais_10.jpg);
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: italic;}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 10rem;
+    width: 100px;
+    height: 50px;
+}
+    
