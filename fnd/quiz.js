@@ -8,7 +8,7 @@ function verificarRespostas(event) {
     let pontuacao = 0;
 
     for (let i = 1; i <= respostasCorretas.length; i++) {
-        const resposta = formData.get("q" + i);
+        const resposta = formData.get("p" + i);
         if (resposta === respostasCorretas[i - 1]) {
             pontuacao++;
         }
