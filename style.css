@@ -5,17 +5,10 @@ body {
     color: aliceblue;
 }
 
-.question {
+.pergunta {
     color: rgb(255, 245, 240);
     font-size: 18px;
     margin-bottom: 10px;
-}
-
-#result {
-    color: aliceblue;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 20px;
 }
 
 .quiz-container {

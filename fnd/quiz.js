@@ -3,7 +3,7 @@ function verificarRespostas(event) {
 
     const respostasCorretas = ["c", "b", "b", "b", "b"];
     const form = document.getElementById("quiz-form");
-    const resultContainer = document.getElementById("result");
+    const resultContainer = document.getElementById("resultado");
     const formData = new FormData(form);
     let pontuacao = 0;
 
@@ -17,7 +17,7 @@ function verificarRespostas(event) {
     document.querySelector(".quiz-container").style.display = "none";
 
     document.querySelector(".resultado-container").style.display = "block";
-    document.getElementById("score").textContent = pontuacao;   
+    document.getElementById("acertos").textContent = pontuacao;
 }
 
 const quizForm = document.getElementById("quiz-form");
